@@ -1,0 +1,182 @@
+@font-face {
+	font-family: Coolvetica;
+	src: url(font/coolvetica/coolvetica\ rg.otf);
+}
+
+@font-face {
+	font-family: Tiffany;
+	src: url(font/tiffany-laurence/Tiffany\ Laurence.ttf);
+}
+
+@font-face {
+	font-family: Uni Sans;
+	src: url(font/uni-sans/Uni\ Sans\ Heavy.otf);
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.header {
+	min-height: 50px;
+	text-align: center;
+	font-family: courier;
+	background-image: url(img/fotomodel2.jpg);
+	background-size: 130%;
+	position: absolute;
+}
+
+.img {
+	width: 200px;
+
+}
+
+.menu ul {
+	padding: 0;
+}
+
+.menu ul li {
+	display: inline-block;
+	position: relative;
+}
+
+.menu ul li a {
+	padding: 10px 20px;
+	text-decoration: none;
+	font-family: courier;
+	color: rgb(255, 255, 255);
+}
+
+ul.submenu {
+	background-color: #eee;
+	border: 1px solid #ccc;
+	text-align: left;
+	position: absolute;
+	top: 20px;
+	left: 0;
+	display: none;
+}
+
+.menu ul li:hover ul.submenu {
+	display: block;
+}
+
+ul.submenu li {
+	display: block;
+}
+
+ul.submenu li a {
+	display: block;
+	padding: 5px 10px;
+}
+
+.jumbotron {
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	text-align: center;
+	color: white;
+	background-color: #aaa;
+	background-image: url(img/gamisboomar2.jfif);
+	background-size: cover;
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.4;
+}
+
+.jumbotron h2 {
+	color: #ffffff;
+}
+
+.jumbotron p {
+	position: relative;
+	font-family: 'comic sans ms';
+}
+
+.content {
+	background-image: url(img/baju-muslim-pria.JPEG);
+	min-height: 500px;
+	overflow: auto;
+}
+
+.thumbnail {
+	background-color: white;
+
+	text-align: center;
+	font-family: 'arial black', sans-serif;
+	padding: 10px;
+	width: 225px;
+	margin: 10px;
+	float: left;
+}
+
+.thumbnail img {
+	width: 100%;
+}
+
+.footer {
+	background-color: #ccc;
+	min-height: 50px;
+	padding: 20px;
+	text-align: center;
+}
+
+.text {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: rgb(255, 255, 255);
+}
+
+.judul {
+	text-align: left;
+	color: rgba(253, 251, 251, 0.877);
+	margin-left: 110px;
+	margin-bottom: -90px;
+}
+
+.akhir {
+	text-align: left;
+	color: rgba(255, 255, 255, 0.877);
+	font-family: 'times new roman', sans-serif;
+	font-size: 50;
+}
+
+.e {
+	width: 80px;
+	margin-bottom: -55px;
+	margin-top: 20px;
+}
+
+.input {
+	background: fixed;
+	border-radius: 2px;
+	border-color: white;
+	padding: 10px;
+	left: 30px;
+	padding-right: 250px;
+	color: white;
+}
+
+.submit {
+	padding: 10px;
+	padding-right: 20px;
+
+}
+
+.footer {
+	background-color: white;
+	min-height: 15px;
+	padding: 0px;
+	text-align: center;
+	border: red;
+	background-color: white;
+}
